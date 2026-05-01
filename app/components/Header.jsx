@@ -30,7 +30,7 @@ const Header = () => {
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.7}}
             className='max-w-2xl mx-auto font-Ovo'>
-                I am a frontend developer from Madhya Pradesh, India with 2 years of experience in multiple companies like Nostalgic Universe, Systumm and Lost Vibes.
+                I am a frontend developer from Madhya Pradesh, India with 2 years of experience in multiple companies like Ruhava, Brains & Bucks and Ethara AI.
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a 
@@ -52,7 +52,8 @@ const Header = () => {
                 initial={{y: 30, opacity: 0}}
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.6, delay: 1.2}}
-                href="https://drive.google.com/file/d/1Xu3W5_2CpE73Y8yfGoImeclyOEr8TbCr/view?usp=sharing" 
+                // href="https://drive.google.com/file/d/1Xu3W5_2CpE73Y8yfGoImeclyOEr8TbCr/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1GMThgU3XPKkRkuC7XezLrPJLJUZpoRRp/view?usp=sharing"
                 className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
                 my resume <Image src={assets.download_icon} alt='' className='w-4' /></motion.a>
             </div>

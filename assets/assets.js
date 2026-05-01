@@ -35,6 +35,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import Link from 'next/link';
+import { link } from 'motion/react-client';
 
 export const assets = {
     user_image,
@@ -78,25 +80,39 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Nostalgic Universe',
+        title: 'House of Ruhava',
         description: 'NextJs, Tailwind, TS',
+        bgImage: '/Copy-of-work-b-2.png',
+        link: 'https://ruhava.vercel.app'
+    },
+    {
+        title: 'Brains & Bucks',
+        description: 'HTML, CSS, JS',
+        bgImage: '/Copy-of-work-d-2.png',
+        link: 'https://brainsandbucks.blogspot.com'
+    },
+    {
+        title: 'Nostalgic Universe',
+        description: 'PHP, SQL, Bootstrap',
         bgImage: '/work-a.png',
+        link: 'https://nostalgicuniverse.netlify.app'
     },
     {
         title: 'GutarGoo Chat',
         description: 'Vanilla JavaScript',
         bgImage: '/work-c.png',
+        link: 'https://gutar-goo.netlify.app'
     },
-    {
-        title: 'Majmah Forum',
-        description: 'PHP, SQL, Bootstrap',
-        bgImage: '/work-b.png',
-    },
-    {
-        title: 'Systumm',
-        description: 'HTML, CSS, JS',
-        bgImage: '/work-d.png',
-    },
+    // {
+    //     title: 'Majmah Forum',
+    //     description: 'PHP, SQL, Bootstrap',
+    //     bgImage: '/work-b.png',
+    // },
+    // {
+    //     title: 'Systumm',
+    //     description: 'HTML, CSS, JS',
+    //     bgImage: '/work-d.png',
+    // },
 ]
 
 export const serviceData = [
