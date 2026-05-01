@@ -27,7 +27,7 @@ const Services = () => {
         whileInView={{opacity: 1}}
         transition={{delay: 0.7, duration: 0.5}}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-            I am a frontend developer from Gwalior, India with 2 years of experience in multiple companies like Nostalgic Universe, Systumm and Lost Vibes.
+            I am a frontend developer from Gwalior, India with 2 years of experience in multiple companies like Ruhava, Brains & Bucks and Ethara AI.
         </motion.p>
 
         <motion.div 
