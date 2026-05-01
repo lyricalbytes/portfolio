@@ -101,7 +101,7 @@ export const workData = [
         title: 'GutarGoo Chat',
         description: 'Vanilla JavaScript',
         bgImage: '/work-c.png',
-        link: 'https://gutar-goo.netlify.app'
+        link: 'https://gutar-goo.netlify.app/gutar%20goo/gutargoo'
     },
     // {
     //     title: 'Majmah Forum',
